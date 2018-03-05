@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { selectBook } from '../actions/index'
 import { bindActionCreators } from 'redux'
+import BookListItem from '../components/BookListItem'
 
 class BookList extends Component {
   renderList() {
@@ -10,13 +11,10 @@ class BookList extends Component {
     // Every book in the list
     return books.map(book => {
       return (
-        <li
+        <BookListItem
           key={book.title}
-          onClick={() => selectBook(book)}
-          className="list-group-item"
-        >
-          {book.title}
-        </li>
+          onBookListItemClick={() => selectBook(book)}
+          bookTitle={book.title} />
       )
     })
   }
