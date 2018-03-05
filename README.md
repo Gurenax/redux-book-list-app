@@ -5,3 +5,9 @@ A simple book list app
 - react create-react-app
 - redux
 - react-redux
+
+## Wireframes
+![](/docs/images/bookListApp.png)
+
+## Containers
+![](/docs/images/reduxContainers.png)
