@@ -3,17 +3,19 @@ import { connect } from 'react-redux'
 
 class BookDetail extends Component {
   render() {
+    // Get the book object from props
+    const { book } = this.props
+
     // Return early if a books is yet to be selected
-    if(!this.props.book) {
+    if (!book) {
       return <div>Select a book to get started.</div>
     }
 
-    
     return (
       <div>
         <h3>Details for:</h3>
-        <div>Title: {this.props.book.title}</div>
-        <div>Pages: {this.props.book.pages}</div>
+        <div>Title: {book.title}</div>
+        <div>Pages: {book.pages}</div>
       </div>
     )
   }
