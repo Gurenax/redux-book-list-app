@@ -1,13 +1,6 @@
 # Redux Book List App
 A simple book list app
 
-## Dear prospect employers/recruiters
-- I am really trying hard to get my skill level up par to your expectations.
-- This is how I work. I google a lot and read plenty of documentation.
-- I always reference to my Github because there are things that I have done before and I cannot recall every line of code that I have written.
-- I do not memorise everything but rest assured that these GitHub projects are indexed in my head like a database.
-- Please expect quality work and products when you decide to hire me because I do care a lot about my customers and the company I represent.
-
 ## Project created using
 - react create-react-app
 - redux
